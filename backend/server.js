@@ -5,7 +5,7 @@ const app = express();
 app.use(cors());
 
 app.use(cors({
-  origin: ["https://demo090.netlify.app"],
+  origin: ["https://demo-2-xmtz.onrender.com"],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
@@ -18,4 +18,5 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`✅ Server running on port ${PORT}`);
 });
+
 
