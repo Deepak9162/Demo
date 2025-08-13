@@ -4,7 +4,7 @@ function App() {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    fetch("https://YOUR_RENDER_BACKEND_URL/") // Replace with your backend URL
+    fetch("https://demo-kxsy.onrender.com/") // Replace with your backend URL
       .then((res) => res.text())
       .then((data) => setMessage(data))
       .catch((err) => console.error(err));
